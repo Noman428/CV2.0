@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Syed Muhammad Noman - CV</title>
+
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+
+        <!-- Bootstrap Icons -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+            rel="stylesheet">
+
+        <style>
+        body {
+            background-color: #f8f5f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .cv-container {
+            max-width: 950px;
+            background: #ffffff;
+            padding: 50px;
+            margin: 50px auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.07);
+        }
+
+        /* Top Section */
+        .top-section {
+            background: #1f2a44;
+            color: white;
+            padding: 40px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+        }
+
+        .top-section h1 {
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .top-section h5 {
+            color: #d4c08a;
+        }
+
+        .contact a {
+            color: #f1d78c;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        h2 {
+            margin-top: 40px;
+            margin-bottom: 25px;
+            font-weight: 600;
+            border-left: 5px solid #c6a85e;
+            padding-left: 12px;
+            color: #1f2a44;
+        }
+
+        /* Cards */
+        .card {
+            border: none;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .hover-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        /* Skill Badges */
+        .skill-badge {
+            background-color: #f3ead6;
+            color: #1f2a44;
+            padding: 6px 12px;
+            margin: 4px;
+            border-radius: 20px;
+            font-size: 14px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .skill-badge:hover {
+            background-color: #c6a85e;
+            color: white;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #777;
+            text-align: center;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="cv-container">
+
+                <!-- Top Section -->
+                <div class="top-section text-center">
+                    <h1>SYED MUHAMMAD NOMAN</h1>
+                    <h5>Computer Systems Engineering Student</h5>
+                    <p class="contact mt-3">
+                        <i class="bi bi-geo-alt"></i> Peshawar, Pakistan |
+                        <i class="bi bi-telephone"></i> +92 3142626858 |
+                        <i class="bi bi-envelope"></i>
+                        <a
+                            href="mailto:miannoman428@gmail.com">miannoman428@gmail.com</a>
+                    </p>
+                </div>
+
+                <!-- Professional Summary -->
+                <section>
+                    <h2>Professional Summary</h2>
+                    <p>
+                        Aspiring Computer Systems Engineer with a specialized
+                        focus on low-level programming
+                        and hardware-software integration. Proven track record
+                        in developing OS-level utilities in C
+                        and building microcontroller-based systems using ESP32
+                        and Arduino. Adept at bridging
+                        the gap between complex software logic and physical
+                        hardware implementation.
+                    </p>
+                </section>
+
+                <!-- Technical Skills -->
+                <section>
+                    <h2>Technical Skills</h2>
+
+                    <div class="row g-4">
+
+                        <div class="col-md-6">
+                            <div class="card p-3 hover-card">
+                                <h5>Programming Languages</h5>
+                                <div>
+                                    <span class="skill-badge">C/C++</span>
+                                    <span class="skill-badge">Python</span>
+                                    <span class="skill-badge">Bash
+                                        Scripting</span>
+                                    <span class="skill-badge">MIPS
+                                        Assembly</span>
+                                    <span class="skill-badge">HTML/CSS</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="card p-3 hover-card">
+                                <h5>Tools & Software</h5>
+                                <div>
+                                    <span class="skill-badge">Arduino IDE</span>
+                                    <span class="skill-badge">MATLAB</span>
+                                    <span class="skill-badge">Proteus</span>
+                                    <span class="skill-badge">PSPICE</span>
+                                    <span class="skill-badge">QtSpim</span>
+                                    <span class="skill-badge">VMWare</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="card p-3 mt-4 hover-card">
+                        <h5>Hardware & Engineering</h5>
+                        <ul>
+                            <li>Digital Logic Design</li>
+                            <li>Circuit Analysis</li>
+                            <li>Microcontroller Interfacing</li>
+                            <li>Embedded Systems</li>
+                        </ul>
+                    </div>
+
+                    <div class="card p-3 mt-3 hover-card">
+                        <h5>Professional Skills</h5>
+                        <ul>
+                            <li>Technical Documentation</li>
+                            <li>Team Collaboration</li>
+                            <li>Problem Solving</li>
+                        </ul>
+                    </div>
+
+                </section>
+
+                <!-- Projects -->
+                <section>
+                    <h2>Project Experience</h2>
+
+                    <div class="card p-4 mb-3 hover-card">
+                        <h5>System Resource Monitor with Alerts (C / Linux)</h5>
+                        <p>
+                            Developed a real-time system monitoring tool to
+                            track CPU, RAM, and disk usage
+                            with threshold-based email alerts. Gained exposure
+                            to process management and system calls.
+                        </p>
+                    </div>
+
+                    <div class="card p-4 mb-3 hover-card">
+                        <h5>File Splitter and Merger Tool (System
+                            Programming)</h5>
+                        <p>
+                            Created a utility to split large files and
+                            reconstruct them using metadata.
+                            Implemented MD5, SHA1, and SHA256 for integrity
+                            verification.
+                        </p>
+                    </div>
+
+                    <div class="card p-4 mb-3 hover-card">
+                        <h5>Soccer Bot (Embedded Systems)</h5>
+                        <p>
+                            Developed a mobile-controlled robot using ESP32 and
+                            motor drivers,
+                            implementing wireless control and power regulation.
+                        </p>
+                    </div>
+
+                    <div class="card p-4 mb-3 hover-card">
+                        <h5>Automated Car Parking System (Arduino)</h5>
+                        <p>
+                            Designed a smart parking system using IR sensors and
+                            LCD to detect vehicle
+                            presence and display space availability.
+                        </p>
+                    </div>
+
+                </section>
+
+                <!-- Education -->
+                <section>
+                    <h2>Education</h2>
+
+                    <div class="card p-3 mb-3 hover-card">
+                        <h5>BS in Computer Systems Engineering</h5>
+                        <p>
+                            University of Engineering and Technology (UET),
+                            Peshawar<br>
+                            Expected July 2027
+                        </p>
+                    </div>
+
+                    <div class="card p-3 mb-3 hover-card">
+                        <h5>F.Sc Pre-Medical (Additional Mathematics)</h5>
+                        <p>
+                            Edwardes College, Peshawar<br>
+                            Completed July 2022<br>
+                            Marks: 995/1100
+                        </p>
+                    </div>
+
+                    <div class="card p-3 hover-card">
+                        <h5>Matric (Science)</h5>
+                        <p>
+                            Edwardes College School, Peshawar<br>
+                            Completed April 2020<br>
+                            Marks: 1029/1100
+                        </p>
+                    </div>
+
+                </section>
+
+                <!-- Additional Information -->
+                <section>
+                    <h2>Additional Information</h2>
+                    <ul>
+                        <li><strong>Languages:</strong> Pashto (Fluent), Urdu
+                            (Fluent), English (Professional)</li>
+                        <li><strong>Interests:</strong> Cybersecurity,
+                            Networking, Hardware-Software Integration</li>
+                        <li><strong>Hobbies:</strong> Chess, Puzzle Solving,
+                            Reading Novels</li>
+                    </ul>
+                </section>
+
+                <footer>
+                    <hr>
+                    <p>&copy; 2026 Syed Muhammad Noman. All Rights Reserved.</p>
+                </footer>
+
+            </div>
+        </div>
+
+    </body>
+</html>
